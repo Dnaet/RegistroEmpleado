@@ -2,17 +2,17 @@ import mysql.connector
 
 # Conectar a la base de datos MySQL
 conexion = mysql.connector.connect(
-    host="localhost",
-    user="tu_usuario",
-    password="tu_contraseña",
-    database="nombre_base_datos"
+    host="3306",
+    user="root",
+    password="",
+    database="sge"
 )
 
 # Crear un cursor
 cursor = conexion.cursor()
 
 # Ejecutar una consulta SQL
-cursor.execute("SELECT * FROM usuarios")
+cursor.execute("SELECT * From empleado")
 
 # Obtener los resultados
 resultados = cursor.fetchall()
