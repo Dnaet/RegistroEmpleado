@@ -1,0 +1,4 @@
+1. hacer modelo en uml
+2. Estructura del repositorio con clases
+3. Conectar con la base de dato (Entablecer base y tablas)
+4. CRUD (Busca como)
